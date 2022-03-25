@@ -1,0 +1,115 @@
+body{
+    direction: rtl;
+}
+  /* Start Header */
+header .container nav > ul > li > a::before{
+      right: 0;
+  }
+header .mega-menu .links li::before {
+    right: 0;
+}
+  header .mega-menu .links li a i {
+      margin-right: 0px;
+      margin-left: 10px;
+  }
+  /* End Header  */
+  /* Start Artciles  Section */
+  .articles .card .info{
+    flex-direction: row-reverse;
+  }
+  /* Start video section  */
+.videos .holder .list .name i{
+    transform: rotateZ(180deg);
+  }
+  /* End Artciles  Section */
+  /* Start Features */
+  .features .box a {
+      background: linear-gradient(to left, var(--box-color) 50%, white 50%);
+      background-size: 200% 100%;
+      background-position: left;
+    }
+  .features .box:hover a {
+      background-position: right;
+      color: white;
+    }
+  /* End Features */
+  /* Start Testimonials */
+  .testimonials .box img{
+      left: -10px;
+  }  /* End Testimonials */
+  /* Start Team */
+  .team .box::before,
+  .team .box::after{
+      right: 60px;
+      left: 0 !important;
+  }
+  .team .box .info{
+      padding-right: 80px;
+  }
+  /* End Team */
+  /* Start Services */
+  .services .box .info{
+      text-align: left;
+  }
+  .services .box .info::before{
+      right: 0;
+      padding-left: 15px;
+      padding-right: 0;
+  }
+  .services .box .info::after{
+      right: 80px;
+      transform: skewX(30deg);
+  }
+  /* End Services */
+  /* Start Skills */
+  .our-skills .skill .progress span{
+      right: 0;
+    }
+/* pricing section  */
+    .pricing .box ul {
+        text-align: right;
+      }
+    .pricing .box ul li {
+        display: flex;
+      }
+    .pricing .box ul li::before {
+        margin-right: 0;
+        margin-left: 10px;
+      }
+  /* Start Footer */
+  .footer .box .links li:hover {
+    padding-right: 10px;
+  }
+  .footer .box .links li a{
+      display: flex;
+  }  
+  .footer .box .links li a::before {
+    transform: rotate(180deg);
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .footer .box .line i {
+    margin-left: 10px;
+  }
+  /* End Footer */
+    /* Animations */
+  @keyframes moving-arrow {
+      100%{
+          transform: translateX(10px);
+      }
+  }  
+  /* End Animation */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
