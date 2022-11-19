@@ -19,6 +19,17 @@ html{
 body{
     font-family: "Cairo", sans-serif;
 }
+/* page Scroller */
+.scroller {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 5px;
+  background-color: var(--main-color-alt);
+  z-index: 999;
+}
+
+
 a {
     text-decoration: none;
 }
