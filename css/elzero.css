@@ -26,9 +26,26 @@ body{
   top: 0;
   height: 5px;
   background-color: var(--main-color-alt);
-  z-index: 999;
+  z-index: 9999;
 }
-
+.scrollToTop {
+  position : fixed;
+  bottom: 20px;
+  right: -30px;
+  background-color: var(--main-color-alt);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: .5s ease;
+  z-index: 9999;
+}
 
 a {
     text-decoration: none;
